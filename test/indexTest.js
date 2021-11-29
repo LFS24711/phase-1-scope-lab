@@ -1,5 +1,5 @@
 describe('Fix the Scope', function() {
-  describe('declare customerName to be bob in global scope', function() {
+  describe('declare customerName to be bob in globalscope', function() {
     it('returns the customerName', function() {
       expect(window.customerName).to.equal('bob');
     });
